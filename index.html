@@ -9,11 +9,70 @@
     <!--Additional links/packages-->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="icon" href="./assets/css/images/ms-icon-150x150.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
 <!--Body-->
   <body>
-      <h1>Marques Gaston</h1>
-    <div class="grid-container">
+
+    <div id="header">  
+    <h1>Marques Gaston</h1>
+      <h2>Software Engineer</h2>
+    </div>
+      <div id="story">
+          <div class="image-cropper"> <!--Portrait!-->
+          <img src="./assets/css/images/portrait.jpg" alt="Self-Portrait">
+          </div>
+          <h2 id="storyHeader">My Story</h4>
+          <p id= "myStory">
+            Prior to pivoting my career towards software development, I worked at a
+            law firm in the Chicago metropolitan area. My attention ability to quickly
+            learn and meticulous attention to detail helped me excel at the firm but I
+            longed for something that would allow me to express my creative side and
+            utilize love to solve problems. As a result, I longed for a more
+            challenging career that would allow me to grow and develop as a creative
+            professional. 
+            <br>
+            <br>
+            After some introductory, online classes (codeacaedemy, udemy) I was
+            hooked; I knew software engineering was the career path for me. In
+            September 2018, I enrolled in Northwestern University's intensive
+            Fullstack coding program. Here, I have acquired the skills to become
+            proficient in Fullstack development. With this program involving over 250+
+            hours of in-class learning through an extensive curriculum along with 200+ hours of
+            independent learning to understand the material; I anticipate graduation
+            from the Fullstack Development program in May 2019. While, I am confident
+            in my newfound skill set, education and teaching experiences from
+            Northwestern University, I am looking for an opportunity to grow as a
+            developer while utilizing my professional experience of working in a team
+            environment.
+             <br>
+             <br>
+            I have experience in implementation and testing for small to large scale
+            applications including in sustaining small and large scale applications
+            with constant updates via GitHub. I strive to create the best experience
+            for the customer in the form of usable and reliable software. My
+            specialties include frontend integration along with user experience and
+            interaction along via Javascript along with data manipulation via MongoDB and/or MySQL.
+          </p>
+        </div>
+
+        <h2 id="technologies"> I am fluent in the following programming languages, programming tools, database and deployment tools </h2>
+          <img class="logo" src="./assets/css/images/html.png" alt="HTML5">
+          <img class="logo" src="./assets/css/images/CSS.png" alt="CCS3">
+          <img class="logo" src="./assets/css/images/JS.png" alt="JavaScript">
+          <img class="logo" src="./assets/css/images/Bootstrap.png" alt="Bootstrap">
+          <img class="logo" src="./assets/css/images/firebase.png" alt="Firebase">
+          <img class="logo" src="./assets/css/images/nodejs.png" alt="nodeJS">
+          <img class="logo" src="./assets/css/images/JQuery.png" alt="jQuery">
+          <img class="logo" src="./assets/css/images/mySQL.png" alt="MySQL">
+          <img class="logo" src="./assets/css/images/MongoDB.png" alt="MongoDB">
+          <img class="logo" src="./assets/css/images/GitHub-Mark.png" alt="GitHub">
+          <img class="logo" src="./assets/css/images/Heroku.png" alt="Heroku">
+    </div>
+    <div class="div-grid">
     <h2 id="projects">Check out my Work
         <div class="grid-container">
             <div class="grid-item">1</div>
@@ -28,50 +87,55 @@
     </h4>
     </div>
 
-    <h4 id="technologies"> I am fluent in the following programming languages </h4>
-    
-    <h2 id= "story">My Story</h4>
-    <p id= "myStory">
-      Prior to pivoting my career towards software development, I worked at a
-      law firm in the Chicago metropolitan area. My attention ability to quickly
-      learn and meticulous attention to detail helped me excel at the firm but I
-      longed for something that would allow me to express my creative side and
-      utilize love to solve problems. As a result, I longed for a more
-      challenging career that would allow me to grow and develop as a creative
-      professional. 
-      <br>
-      <br>
-      After some introductory, online classes (codeacaedemy, udemy) I was
-      hooked; I knew software engineering was the career path for me. In
-      September 2018, I enrolled in Northwestern University's intensive
-      Fullstack coding program. Here, I have acquired the skills to become
-      proficient in Fullstack development. With this program involving over 250+
-      hours of in-class learning through an extensive curriculum along with 200+ hours of
-      independent learning to understand the material; I anticipate graduation
-      from the Fullstack Development program in May 2019. While, I am confident
-      in my newfound skill set, education and teaching experiences from
-      Northwestern University, I am looking for an opportunity to grow as a
-      developer while utilizing my professional experience of working in a team
-      environment.
-       <br>
-       <br>
-      I have experience in implementation and testing for small to large scale
-      applications including in sustaining small and large scale applications
-      with constant updates via GitHub. I strive to create the best experience
-      for the customer in the form of usable and reliable software. My
-      specialties include frontend integration along with user experience and
-      interaction along via Javascript along with data manipulation via MongoDB and/or MySQL.
-    </p>
+<!--Education-->
+<div id="education">
+
+  <h2> Education </h2>
+  <p>
+  Northwestern University <br><br>
+Full Stack Developer Program
+
+Xavier University <br><br>
+Bachelors of Arts 
+  </p>
+
+</div>
+
+<!--Contact-->
+
+<div id="contact">
+<h4>This is how you can reach me..</h4>
+<div id='contactMiniBox'>
+    <div class="email">
+      <h4 class="card-title">Email</h4>
+      <a href="mailto:gaston.marques@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>  
+    </div>
+    <br>
+    <div class="github">
+      <h4 class="card-title">GitHub</h4>
+        <a href="https://github.com/Gastonm1" target="_blank">
+          <i class="fab fa-github-square fa-1x"></i>
+    </div>
+    <br>
+    <div class="linkedin">
+        <h4 class="card-title">LinkedIn</h4>
+          <a href="https://www.linkedin.com/in/gastonm1/" target="_blank">
+            <i class="fab fa-linkedin fa-1x"></i>
+    </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 <!--Nav --> 
 <nav class="sidebar">
 <ul class="links">
-    <li class="active"><a href="/index.html"><span>H</span><span>OME</span></a></li>
+    <li class="active"><a href="#"><span>H</span><span>OME</span></a></li>
     <li><a href="#projects"><span>C</span><span>HECK OUT MY WORK</span></a></li>
     <li><a href="#tecnologies"><span>F</span><span>LUENCY</span></a></li>
     <li><a href="#story"><span>M</span><span>Y STORY</span></a></li>
     <li><a href="#contact"><span>R</span><span>ESUME</span></a></li>
+    <li><a href="#contact"><span>C</span><span>ONTACT</span></a></li>
 </ul>
 </nav>
 </html>

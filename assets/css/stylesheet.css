@@ -1,82 +1,171 @@
-html, body{
-    margin: 0;
-    padding: 0;
-    background: url(#);
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: rgba(238, 238, 238, 0.81);
-    background-position: center;
-    font-family: 'Work Sans', sans-serif;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../css/images/tyler-lastovich-453203-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(238, 238, 238, 0.81);
+  background-position: center;
+  font-family: "Work Sans", sans-serif;
 }
 
+h1,
+h2,
+h4,
+p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+h4,p:hover{
+  color: gold;
+}
+
+/*Text Center*/
+#header,
+#technologies,
+#story,
+#mystory,
+#storyHeader,
+#education,
+#contact {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+
+#header{
+font-size: 2em;
+margin: .67em 0;
+
+}
+
+
+/* Technologies */
+
+#technologies{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo{
+  max-height: 100px;
+  max-width: 100px;
+  margin-top: 1vw;
+  margin-right: 1vw;
+  border-radius: 25px;
+}
 /* Project Grid container */
+
+.div-grid {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 10px;
-  }
-  
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
 
-  /* NAV */
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 
-  nav {
-    margin-top: 15px;
-    position: fixed;
-    top: 0;
-    left:0;
-    z-index:99;
-  }
-  .sidebar{
-      font-size: 30px;
-      font-family: 'Work Sans', sans-serif;
-      width: 20%;
-  }
+/* PORTRAIT */
+.image-cropper {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 50%;
+  left: 50%;
+}
 
-  ul{
-      list-style:none;
-  }
+.image-cropper img{
+  width: 200px;
+}
 
-  a {
-      font-size: 26px;
-      text-decoration: none;
-      line-height: 1;
-  }
 
-  a span{
-      display: inline-block;
-      vertical-align: middle;
-      transition: all 0.5s;
-      color: black;
-  }
+/* NAV */
 
-  a span:nth-child(2) {
-    max-width: 0px;
-    overflow: hidden;
-  }
-  
-  .links:hover a span {
-    max-width: 115px;
-    color:white;
-  }
-        
-  .links:hover a:hover span {
-    max-width:115px;
-    color:gold;
-  }
+nav {
+  margin-top: 15px;
+  position: fixed;
+  top: 25%;
+  left: 0;
+  z-index: 99;
+}
+.sidebar {
+  font-size: 30px;
+  font-family: "Work Sans", sans-serif;
+  width: 20%;
+}
 
-  .li {
-    box-sizing: border-box;
-  }
+ul {
+  list-style: none;
+}
+
+a {
+  font-size: 26px;
+  text-decoration: none;
+  line-height: 1;
+}
+
+a span {
+  display: inline-block;
+  vertical-align: middle;
+  transition: all 0.5s;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+a span:nth-child(2) {
+  max-width: 0px;
+  overflow: hidden;
+}
+
+.links:hover a span {
+  max-width: 115px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.links:hover a:hover span {
+  max-width: 115px;
+  color: gold;
+}
+
+.li {
+  box-sizing: border-box;
+}
 
 /* My Story */
 
-#myStory{
-    text-align: justify;
+#myStory {
+  text-align: justify;
+}
+
+/*CONTACT */
+#contactMiniBox{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#email, #github{
+  margin: 0 10px;
+  padding: 0 10px;
+}
+
+/*Mobile Friendly */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
