@@ -37,7 +37,7 @@ h4,p:hover{
 
 #header{
 text-align: center;
-font-size: 2em;
+font-size: 20em;
 margin: .67em 0;
 
 }
@@ -147,8 +147,12 @@ a span:nth-child(2) {
 }
 
 /* My Story */
+ #story{
+   margin-top: 135px;
+ }
 
 #myStory {
+  font-size: 20px;
   text-align: justify;
 }
 
