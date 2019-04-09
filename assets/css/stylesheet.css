@@ -18,7 +18,7 @@ p {
   color: rgba(255, 255, 255, 0.8);
 }
 
-h4,p:hover{
+#secondColor,#projectsHeader,#technologies,#storyHeader,h4,p:hover{
   color: gold;
 }
 
@@ -29,7 +29,8 @@ h4,p:hover{
 #myStory,
 #storyHeader,
 #education,
-#contact {
+#contact,
+#projectsHeader {
   margin: 0 auto;
   width: 70%;
   text-align: center;
@@ -37,8 +38,8 @@ h4,p:hover{
 
 #header{
 text-align: center;
-font-size: 20em;
-margin: .67em 0;
+font-size: 20px;
+margin: 11.67em 0 5.90em 0;
 
 }
 
@@ -60,7 +61,22 @@ margin: .67em 0;
 }
 /* Project Grid container */
 
-.div-grid {
+
+.bd-example{
+  text-align: center;
+}
+
+.carousel-item{
+  align-items: center;
+}
+
+#carouselImg {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+#carouselImg2 {
   margin: 0 auto;
   width: 50%;
   text-align: center;
@@ -89,6 +105,8 @@ margin: .67em 0;
   overflow: hidden;
   border-radius: 50%;
   left: 50%;
+  margin-left: 39%;
+  margin-bottom: 50px;
 }
 
 .image-cropper img{
@@ -133,12 +151,12 @@ a span:nth-child(2) {
 }
 
 .links:hover a span {
-  max-width: 115px;
+  max-width: 125px;
   color: rgba(255, 255, 255, 0.8);
 }
 
 .links:hover a:hover span {
-  max-width: 115px;
+  max-width: 125px;
   color: gold;
 }
 
@@ -148,7 +166,7 @@ a span:nth-child(2) {
 
 /* My Story */
  #story{
-   margin-top: 135px;
+   margin-top: 13.75re5px;
  }
 
 #myStory {
@@ -166,6 +184,10 @@ a span:nth-child(2) {
 #email, #github{
   margin: 0 10px;
   padding: 0 10px;
+}
+
+.card-title{
+  margin: .75rem;
 }
 
 /*Mobile Friendly */
