@@ -59,6 +59,7 @@ margin: 11.67em 0 5.90em 0;
   margin-right: 1vw;
   border-radius: 25px;
 }
+
 /* Project Grid container */
 
 
@@ -72,8 +73,8 @@ margin: 11.67em 0 5.90em 0;
 
 #carouselImg {
   margin: 0 auto;
-  width: 50%;
   text-align: center;
+
 }
 
 #carouselImg2 {
