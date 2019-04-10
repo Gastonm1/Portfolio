@@ -1,9 +1,9 @@
-const anime = require('animejs');
+const anime = require("animejs");
 
 anime({
-    targets: 'div',
-    translateX: 250,
-    rotate: '1turn',
-    backgroundColor: '#FFF',
-    duration: 800
-  });
+  targets: "div",
+  translateX: 250,
+  rotate: "1turn",
+  backgroundColor: "#FFF",
+  duration: 800
+});
