@@ -39,7 +39,7 @@ p {
 #header{
 text-align: center;
 font-size: 20px;
-margin: 11.67em 0 5.90em 0;
+margin: 8.67em 0 5.90em 0;
 
 }
 
@@ -81,6 +81,10 @@ margin: 11.67em 0 5.90em 0;
   margin: 0 auto;
   width: 50%;
   text-align: center;
+}
+
+#prevnextIcon{
+  height: 5250px;
 }
 
 .grid-container {
