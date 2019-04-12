@@ -17,6 +17,7 @@ h3,
 h4,
 p {
   color: rgba(255, 255, 255, 0.8);
+  padding: auto;
 }
 
 #secondColor,
@@ -146,7 +147,7 @@ nav {
 
 #myStory {
   font-size: 20px;
-  text-align: justify;
+  text-align: center;
 }
 
 /*CONTACT */
