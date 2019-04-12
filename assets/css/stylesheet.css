@@ -3,21 +3,13 @@ body {
   height: auto;
   margin: 0;
   padding: 0;
-  background: url(../css/images/BackgroundImage6.jpg);
+  background: url(../css/images/BackgroundImage.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-color: rgba(238, 238, 238, 0.81);
   background-position: center;
   font-family: "Work Sans", sans-serif;
 }
-
-/* html{
-  overflow: hidden;
-}
-
-body{
-  overflow: auto;
-} */
 
 h1,
 h2,
@@ -134,60 +126,17 @@ nav {
   opacity: 0.7;
 }
 
-#navLinkColor{
+#navLinkColor {
   color: rgba(255, 255, 255, 0.8);
   background-color: none;
 }
 
-#navLinkColor:hover{
+#navLinkColor:hover {
   color: gold;
 }
 
-#btnNav{
+#btnNav {
   border-color: gold;
-}
-
-.sidebar {
-  font-size: 30px;
-  font-family: "Work Sans", sans-serif;
-  width: 12.5%;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  font-size: 26px;
-  text-decoration: none;
-  line-height: 1;
-}
-
-a span {
-  display: inline-block;
-  vertical-align: middle;
-  transition: all 0.5s;
-  color: rgba(255, 255, 255, 0.8);
-}
-
-a span:nth-child(2) {
-  max-width: 0px;
-  overflow: hidden;
-}
-
-.links:hover a span {
-  max-width: 100px;
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.links:hover a:hover span {
-  max-width: 100px;
-  color: gold;
-}
-
-.li {
-  box-sizing: border-box;
-  color: gold;
 }
 
 /* My Story */
@@ -215,31 +164,4 @@ a span:nth-child(2) {
 
 .card-title {
   margin: 0.75rem;
-}
-
-/*Mobile Friendly */
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
-
-/* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) {
-}
-
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-}
-
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
-}
-
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-}
-
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {
 }
