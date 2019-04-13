@@ -147,7 +147,7 @@ nav {
 
 #myStory {
   font-size: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 /*CONTACT */
@@ -165,4 +165,10 @@ nav {
 
 .card-title {
   margin: 0.75rem;
+}
+
+@media only screen and (max-width: 750px) {
+  #myStory {
+    text-align: center;
+  }
 }
