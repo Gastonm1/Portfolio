@@ -171,4 +171,8 @@ nav {
   #myStory {
     text-align: center;
   }
+
+  #indicators {
+    margin-bottom: -2rem;
+  }
 }
